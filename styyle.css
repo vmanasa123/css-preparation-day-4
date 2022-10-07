@@ -1,0 +1,123 @@
+.box{
+    height: 200px;
+    width: 200px;
+}
+
+
+
+@import url( https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/navbar/logoPrepBytes.svg );  
+img{
+    margin-top: 15px;
+}
+
+.navbar{
+    float: right;
+    margin-right: 70px;
+    display:flex;
+}
+.nav-button{
+    padding: 30px;
+    font-family:"poppins",sans-serif;
+}
+
+
+.container{
+    display:flex;
+    justify-content:space-evenly;
+}
+.card{
+    border: 2px groove gray;
+    width: 150px;
+    height: 150px;
+    background-color:brown;
+}
+@media screen and (max-width: 720px) {
+    .container{
+        flex-direction: column;
+      
+    }
+}
+
+
+.button{
+    background-color: cadetblue;
+    height: 50px;
+    width: 150px;
+    border-radius: 35px;
+    margin: 12px;
+    font-size: larger;
+    color: cornsilk;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen  and (max-width:800px) and (min-width:480px){
+    div{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+
+  .button{
+        background-color: green;
+        height: 50px;
+        width: 150px;
+        border-radius: 35px;
+        margin: 12px;
+        font-size: larger;
+        color: cornsilk;
+}
+}
+
+@media  only screen and (max-width:480px) and (min-width:320px){
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       }
+     
+       .button{
+        background-color:red;
+        height: 50px;
+        width: 150px;
+        border-radius: 35px;
+        margin: 12px;
+        font-size: larger;
+        color: cornsilk;
+}
+}
+
+.boxx{
+    height: 300px;
+    width: 600px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.item{
+    background-color:tomato;
+    height: 150px;
+    width: 150px;
+    border: 2px solid green;
+    margin: 10px;
+     padding: 3px;
+
+}
+
+.item-1{
+}
+
+.item-2{
+    flex-basis: 160px;
+}
+
+.item-3{
+    align-self: flex-start;
+    align-self: center;
+    align-self: flex-end;
+}
